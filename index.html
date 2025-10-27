@@ -1,9 +1,26 @@
+<!--
+Du har skrivit väldigt bra kod. Det finns några små delar att fixa till, men i övrigt ser det bra ut.
+
+Jag får tre fel i valideringen som du också behöver kolla på.
+-->
+
 <!DOCTYPE html>
 <html lang="sv">
 
 <head>
     <meta charset="UTF-8">
+
+    <!-- Denna meta-tagg fattas: <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    
     <title>Café Mysigt</title>
+
+    <!-- Lägg gärna styling i en CSS-fil -->
+    <!-- 
+    Din CSS är för det mesta väldigt bra skriven. Du blandar lite med svenska och engelska. 
+    Håll dig till enbart ett språk, helst engelska. 
+
+    Du har lite öndigt space på vissa ställen som går att ta bort.
+    -->
     <style>
         * {
             margin: 0;
@@ -71,7 +88,7 @@
         }
 
         .subtitle {
-            font-size: italic;
+            font-size: italic; /* Här har det blivit en liten miss tror jag */
             color: #6b4423;
             margin-bottom: 1rem;
 
@@ -173,7 +190,7 @@
     </section>
     <hr class="divider">
     <main>
-
+    <!-- Här behövs inte två tomma rader, max en -->
 
         <section id="meny">
             <h2>Vår Meny - Drycker</h2>
@@ -194,7 +211,7 @@
                 <li>Chokladcroissant - 35 kr/st</li>
                 <li>Blåbärsmuffins - 30 kr/st</li>
                 <li>Smörgås med pålägg - 55 kr/st</li>
-
+            <!-- Denna tomma rad kan du också ta bort -->
             </ul>
         </section>
         <hr class="divider">
@@ -211,7 +228,7 @@
         </section>
         <hr class="divider">
 
-
+        <!-- Här har du tre tomma rader, använd max en -->
 
         <footer id="kontakta-oss">
             <h2> kontakt och hitta hit</h2>
@@ -222,4 +239,4 @@
     </main>
 
 </body>
->
+> <!-- Du har missat att skriva </html> här
